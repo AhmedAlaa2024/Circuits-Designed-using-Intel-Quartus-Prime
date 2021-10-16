@@ -1,0 +1,10 @@
+vendor_name = ModelSim
+source_file = 1, D:/Cairo University/Faculty of Engineering/Computer Engineering Department/Second Year/First Term/Microprocessors/Labs/Lab1_ALU/FA1.bdf
+source_file = 1, D:/Cairo University/Faculty of Engineering/Computer Engineering Department/Second Year/First Term/Microprocessors/Labs/Lab1_ALU/db/FA1.cbx.xml
+design_name = FA1
+instance = comp, \SUM~output , SUM~output, FA1, 1
+instance = comp, \COUT~output , COUT~output, FA1, 1
+instance = comp, \CIN~input , CIN~input, FA1, 1
+instance = comp, \IN0~input , IN0~input, FA1, 1
+instance = comp, \IN1~input , IN1~input, FA1, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, FA1, 1

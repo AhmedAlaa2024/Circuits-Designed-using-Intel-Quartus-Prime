@@ -1,0 +1,287 @@
+$comment
+	File created using the following command:
+		vcd file MUXBUS4.msim.vcd -direction
+$end
+$date
+	Sat Oct 16 18:39:45 2021
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module MUXBUS4_vlg_vec_tst $end
+$var reg 4 ! IN0 [3:0] $end
+$var reg 4 " IN1 [3:0] $end
+$var reg 1 # Sel $end
+$var wire 1 $ OUTPUT [3] $end
+$var wire 1 % OUTPUT [2] $end
+$var wire 1 & OUTPUT [1] $end
+$var wire 1 ' OUTPUT [0] $end
+
+$scope module i1 $end
+$var wire 1 ( gnd $end
+$var wire 1 ) vcc $end
+$var wire 1 * unknown $end
+$var tri1 1 + devclrn $end
+$var tri1 1 , devpor $end
+$var tri1 1 - devoe $end
+$var wire 1 . ~QUARTUS_CREATED_GND~I_combout $end
+$var wire 1 / IN0[3]~input_o $end
+$var wire 1 0 Sel~input_o $end
+$var wire 1 1 IN1[3]~input_o $end
+$var wire 1 2 inst|$00000|auto_generated|l1_w3_n0_mux_dataout~0_combout $end
+$var wire 1 3 IN0[2]~input_o $end
+$var wire 1 4 IN1[2]~input_o $end
+$var wire 1 5 inst|$00000|auto_generated|l1_w2_n0_mux_dataout~0_combout $end
+$var wire 1 6 IN0[1]~input_o $end
+$var wire 1 7 IN1[1]~input_o $end
+$var wire 1 8 inst|$00000|auto_generated|l1_w1_n0_mux_dataout~0_combout $end
+$var wire 1 9 IN1[0]~input_o $end
+$var wire 1 : IN0[0]~input_o $end
+$var wire 1 ; inst|$00000|auto_generated|l1_w0_n0_mux_dataout~0_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 !
+b0 "
+0#
+0'
+0&
+0%
+0$
+0(
+1)
+x*
+1+
+1,
+1-
+0.
+0/
+00
+01
+02
+03
+04
+05
+06
+07
+08
+09
+0:
+0;
+$end
+#20000
+b10 !
+b11 !
+1#
+1:
+16
+10
+#40000
+b100 "
+b110 "
+b111 "
+0#
+19
+17
+14
+00
+1;
+18
+1&
+1'
+#50000
+b111 !
+b101 !
+b100 !
+0:
+06
+13
+15
+08
+0;
+0'
+0&
+1%
+#60000
+1#
+10
+1;
+18
+1&
+1'
+#80000
+b1111 "
+b1011 "
+b1001 "
+0#
+07
+04
+11
+00
+0;
+08
+0&
+0'
+#100000
+b0 !
+b1 !
+1#
+1:
+03
+10
+1;
+05
+12
+1$
+0%
+1'
+#120000
+0#
+00
+02
+0$
+#130000
+b1000 "
+b0 "
+09
+01
+#140000
+b0 !
+1#
+0:
+10
+0;
+0'
+#160000
+0#
+00
+#180000
+1#
+10
+#200000
+0#
+00
+#220000
+1#
+10
+#240000
+0#
+00
+#260000
+1#
+10
+#280000
+0#
+00
+#300000
+1#
+10
+#320000
+0#
+00
+#340000
+1#
+10
+#360000
+0#
+00
+#380000
+1#
+10
+#400000
+0#
+00
+#420000
+1#
+10
+#440000
+0#
+00
+#460000
+1#
+10
+#480000
+0#
+00
+#500000
+1#
+10
+#520000
+0#
+00
+#540000
+1#
+10
+#560000
+0#
+00
+#580000
+1#
+10
+#600000
+0#
+00
+#620000
+1#
+10
+#640000
+0#
+00
+#660000
+1#
+10
+#680000
+0#
+00
+#700000
+1#
+10
+#720000
+0#
+00
+#740000
+1#
+10
+#760000
+0#
+00
+#780000
+1#
+10
+#800000
+0#
+00
+#820000
+1#
+10
+#840000
+0#
+00
+#860000
+1#
+10
+#880000
+0#
+00
+#900000
+1#
+10
+#920000
+0#
+00
+#940000
+1#
+10
+#960000
+0#
+00
+#980000
+1#
+10
+#1000000

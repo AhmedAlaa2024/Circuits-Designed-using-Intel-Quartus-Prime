@@ -1,0 +1,331 @@
+$comment
+	File created using the following command:
+		vcd file BUXMUX4.msim.vcd -direction
+$end
+$date
+	Sat Oct 16 19:01:01 2021
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module BUXMUX4_vlg_vec_tst $end
+$var reg 4 ! IN0 [3:0] $end
+$var reg 4 " IN1 [3:0] $end
+$var reg 1 # SEL $end
+$var wire 1 $ OUTPUT [3] $end
+$var wire 1 % OUTPUT [2] $end
+$var wire 1 & OUTPUT [1] $end
+$var wire 1 ' OUTPUT [0] $end
+
+$scope module i1 $end
+$var wire 1 ( gnd $end
+$var wire 1 ) vcc $end
+$var wire 1 * unknown $end
+$var tri1 1 + devclrn $end
+$var tri1 1 , devpor $end
+$var tri1 1 - devoe $end
+$var wire 1 . ~QUARTUS_CREATED_GND~I_combout $end
+$var wire 1 / IN0[3]~input_o $end
+$var wire 1 0 SEL~input_o $end
+$var wire 1 1 IN1[3]~input_o $end
+$var wire 1 2 inst|$00000|auto_generated|l1_w3_n0_mux_dataout~0_combout $end
+$var wire 1 3 IN0[2]~input_o $end
+$var wire 1 4 IN1[2]~input_o $end
+$var wire 1 5 inst|$00000|auto_generated|l1_w2_n0_mux_dataout~0_combout $end
+$var wire 1 6 IN0[1]~input_o $end
+$var wire 1 7 IN1[1]~input_o $end
+$var wire 1 8 inst|$00000|auto_generated|l1_w1_n0_mux_dataout~0_combout $end
+$var wire 1 9 IN1[0]~input_o $end
+$var wire 1 : IN0[0]~input_o $end
+$var wire 1 ; inst|$00000|auto_generated|l1_w0_n0_mux_dataout~0_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 !
+b0 "
+0#
+0'
+0&
+0%
+0$
+0(
+1)
+x*
+1+
+1,
+1-
+0.
+0/
+00
+01
+02
+03
+04
+05
+06
+07
+08
+09
+0:
+0;
+$end
+#10000
+b1 "
+19
+#20000
+1#
+10
+1;
+1'
+#30000
+b100 !
+b101 !
+1:
+13
+#40000
+0#
+00
+15
+1%
+#60000
+b101 "
+b111 "
+1#
+17
+14
+10
+18
+1&
+#80000
+0#
+00
+08
+0&
+#90000
+b111 !
+b11 !
+b10 !
+0:
+16
+03
+05
+18
+0;
+0'
+1&
+0%
+#100000
+1#
+10
+1;
+15
+1%
+1'
+#120000
+0#
+00
+0;
+05
+0%
+0'
+#130000
+b11 "
+04
+#140000
+1#
+10
+1;
+1'
+#160000
+b1010 !
+0#
+1/
+00
+0;
+12
+1$
+0'
+#180000
+1#
+10
+1;
+02
+0$
+1'
+#190000
+b10 "
+b110 "
+09
+14
+15
+0;
+0'
+1%
+#200000
+0#
+00
+05
+12
+1$
+0%
+#220000
+1#
+10
+15
+02
+0$
+1%
+#240000
+b1110 "
+b1100 "
+b1000 !
+b1101 "
+b1001 "
+0#
+06
+19
+07
+04
+11
+00
+08
+05
+12
+1$
+0%
+0&
+#260000
+1#
+10
+1;
+1'
+#270000
+b1 "
+b0 "
+09
+01
+02
+0;
+0'
+0$
+#280000
+0#
+00
+12
+1$
+#300000
+b0 !
+1#
+0/
+10
+02
+0$
+#320000
+0#
+00
+#340000
+1#
+10
+#360000
+0#
+00
+#380000
+1#
+10
+#400000
+0#
+00
+#420000
+1#
+10
+#440000
+0#
+00
+#460000
+1#
+10
+#480000
+0#
+00
+#500000
+1#
+10
+#520000
+0#
+00
+#540000
+1#
+10
+#560000
+0#
+00
+#580000
+1#
+10
+#600000
+0#
+00
+#620000
+1#
+10
+#640000
+0#
+00
+#660000
+1#
+10
+#680000
+0#
+00
+#700000
+1#
+10
+#720000
+0#
+00
+#740000
+1#
+10
+#760000
+0#
+00
+#780000
+1#
+10
+#800000
+0#
+00
+#820000
+1#
+10
+#840000
+0#
+00
+#860000
+1#
+10
+#880000
+0#
+00
+#900000
+1#
+10
+#920000
+0#
+00
+#940000
+1#
+10
+#960000
+0#
+00
+#980000
+1#
+10
+#1000000

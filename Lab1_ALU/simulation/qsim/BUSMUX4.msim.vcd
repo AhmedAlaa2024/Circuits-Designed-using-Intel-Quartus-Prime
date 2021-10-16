@@ -1,0 +1,403 @@
+$comment
+	File created using the following command:
+		vcd file BUSMUX4.msim.vcd -direction
+$end
+$date
+	Sat Oct 16 19:23:28 2021
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module BUSMUX4_vlg_vec_tst $end
+$var reg 4 ! IN0 [3:0] $end
+$var reg 4 " IN1 [3:0] $end
+$var reg 4 # IN2 [3:0] $end
+$var reg 4 $ IN3 [3:0] $end
+$var reg 2 % SEL [1:0] $end
+$var wire 1 & OUTPUT [3] $end
+$var wire 1 ' OUTPUT [2] $end
+$var wire 1 ( OUTPUT [1] $end
+$var wire 1 ) OUTPUT [0] $end
+
+$scope module i1 $end
+$var wire 1 * gnd $end
+$var wire 1 + vcc $end
+$var wire 1 , unknown $end
+$var tri1 1 - devclrn $end
+$var tri1 1 . devpor $end
+$var tri1 1 / devoe $end
+$var wire 1 0 ~QUARTUS_CREATED_GND~I_combout $end
+$var wire 1 1 IN1[3]~input_o $end
+$var wire 1 2 IN2[3]~input_o $end
+$var wire 1 3 SEL[1]~input_o $end
+$var wire 1 4 SEL[0]~input_o $end
+$var wire 1 5 IN0[3]~input_o $end
+$var wire 1 6 IN3[3]~input_o $end
+$var wire 1 7 inst2|inst|$00000|auto_generated|l1_w3_n0_mux_dataout~0_combout $end
+$var wire 1 8 IN1[2]~input_o $end
+$var wire 1 9 IN0[2]~input_o $end
+$var wire 1 : IN3[2]~input_o $end
+$var wire 1 ; IN2[2]~input_o $end
+$var wire 1 < inst2|inst|$00000|auto_generated|l1_w2_n0_mux_dataout~0_combout $end
+$var wire 1 = IN2[1]~input_o $end
+$var wire 1 > IN3[1]~input_o $end
+$var wire 1 ? IN0[1]~input_o $end
+$var wire 1 @ IN1[1]~input_o $end
+$var wire 1 A inst2|inst|$00000|auto_generated|l1_w1_n0_mux_dataout~0_combout $end
+$var wire 1 B IN3[0]~input_o $end
+$var wire 1 C IN2[0]~input_o $end
+$var wire 1 D IN1[0]~input_o $end
+$var wire 1 E IN0[0]~input_o $end
+$var wire 1 F inst2|inst|$00000|auto_generated|l1_w0_n0_mux_dataout~0_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b100 !
+b101 "
+b1 #
+b111 $
+b0 %
+0)
+0(
+1'
+0&
+0*
+1+
+x,
+1-
+1.
+1/
+00
+01
+02
+03
+04
+05
+06
+07
+18
+19
+1:
+0;
+1<
+0=
+1>
+0?
+0@
+0A
+1B
+1C
+1D
+0E
+0F
+$end
+#20000
+b1 %
+14
+1F
+1)
+#40000
+b1100 !
+b1000 !
+b11 #
+b10 #
+b11 %
+b10 %
+04
+13
+0C
+1=
+09
+15
+0<
+1A
+0F
+0)
+1(
+0'
+#60000
+b11 %
+14
+1F
+1<
+1'
+1)
+#80000
+b1 %
+b0 %
+04
+03
+0F
+0A
+0<
+17
+1&
+0'
+0(
+0)
+#100000
+b1 %
+14
+1F
+1<
+07
+0&
+1'
+1)
+#110000
+b1001 !
+b1 "
+b1 !
+b101 !
+08
+1E
+19
+05
+0<
+0'
+#120000
+b11 %
+b10 %
+04
+13
+0F
+1A
+1(
+0)
+#130000
+b11 #
+1C
+1F
+1)
+#140000
+b11 %
+14
+1<
+1'
+#150000
+b0 "
+0D
+#160000
+b100 "
+b1 %
+b0 %
+04
+03
+18
+0A
+0(
+#180000
+b1 %
+14
+0F
+0)
+#200000
+b11 %
+b10 %
+04
+13
+1F
+1A
+0<
+0'
+1(
+1)
+#210000
+b110 "
+1@
+#220000
+b1 !
+b11 %
+14
+09
+1<
+1'
+#240000
+b111 #
+b101 #
+b100 #
+b1 %
+b0 %
+04
+03
+0C
+0=
+1;
+0<
+0A
+0(
+0'
+#260000
+b1 %
+14
+0F
+1A
+1<
+1'
+1(
+0)
+#280000
+b11 !
+b1110 "
+b1111 "
+b1011 "
+b1001 "
+b111 !
+b11 %
+b10 %
+04
+13
+1D
+0@
+08
+11
+1?
+19
+0A
+0(
+#300000
+b11 %
+14
+1F
+1A
+1(
+1)
+#320000
+b1 %
+b0 %
+04
+03
+#340000
+b110 !
+b100 !
+b0 !
+b1 %
+14
+0E
+0?
+09
+0<
+0A
+17
+1&
+0(
+0'
+#350000
+b1 !
+b11 !
+1E
+1?
+#360000
+b11 %
+b10 %
+04
+13
+0F
+1<
+07
+0&
+1'
+0)
+#370000
+b101 #
+1C
+1F
+1)
+#380000
+b11 %
+14
+1A
+1(
+#400000
+b1 %
+b0 %
+04
+03
+0<
+0'
+#410000
+b1 "
+b0 "
+b10 "
+0D
+1@
+01
+#420000
+b1 %
+14
+0F
+0)
+#440000
+b11 %
+b10 %
+04
+13
+1F
+0A
+1<
+1'
+0(
+1)
+#460000
+b11 %
+14
+1A
+1(
+#480000
+b1 %
+b0 %
+04
+03
+0<
+0'
+#500000
+b10 !
+b0 !
+b1 %
+14
+0E
+0?
+0F
+0)
+#520000
+b11 %
+b10 %
+04
+13
+1F
+0A
+1<
+1'
+0(
+1)
+#540000
+b11 $
+b1 $
+b0 $
+b1 #
+b0 #
+b0 "
+b11 %
+14
+0@
+0C
+0;
+0B
+0>
+0:
+0<
+0F
+0)
+0'
+#560000
+b1 %
+b0 %
+04
+03
+#1000000
